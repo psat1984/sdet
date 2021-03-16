@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T09:48:17.868Z",
+        "line": 12,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-with-example;testing-with-data-from-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7486004000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.loginPage2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374815200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.LoginTestSteps1.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113012900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.readTitleAndHeading2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 774386400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.closeBrowser2()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T09:48:26.712Z",
+        "line": 13,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-with-example;testing-with-data-from-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5634873500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.loginPage2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 342920000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"adminUser\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adminUser",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.LoginTestSteps1.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84633000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.readTitleAndHeading2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 733963600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser2",
+            "match": {
+              "location": "stepDefinition.LoginTestSteps1.closeBrowser2()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity1_5"
+          }
+        ]
+      }
+    ],
+    "name": "Data driven test with Example",
+    "description": "",
+    "id": "data-driven-test-with-example",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Activity1_5.feature",
+    "tags": [
+      {
+        "name": "@activity1_5",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
