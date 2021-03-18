@@ -1,0 +1,794 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7218211000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:37:45.516Z",
+        "line": 9,
+        "name": "Creating a job vacancy",
+        "description": "",
+        "id": "hrm-system;creating-a-job-vacancy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 812063500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to the Recruitment page",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.navigate_to_recruitement_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 648736000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.navigate_to_vacancies_menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412372000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add Job Vacancy",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.add_job_vacancy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677718500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Job Vacancy Form is filled and saved job title \"Automation Test Engineer\", vacancy name \"12AutomationTesterjan29\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 48
+                },
+                {
+                  "val": "12AutomationTesterjan29",
+                  "offset": 89
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 131
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1577072600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify vacancy is created job title \"Automation Test Engineer\", vacancy name \"12AutomationTesterjan29\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 37
+                },
+                {
+                  "val": "12AutomationTesterjan29",
+                  "offset": 78
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 120
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 994123600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6331699800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:37:57.993Z",
+        "line": 18,
+        "name": "Adding a candidate for recruitment",
+        "description": "",
+        "id": "hrm-system;adding-a-candidate-for-recruitment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5628913100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to Recruitment page",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.navigate_to_the_recruitement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5450182600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Add to add candidate",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.add_candidate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103105200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Fill the details of the candidate",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.fill_the_details_of_candidate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507861500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Save",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1073102100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Confirm Candidate Entry",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.confirm_candidate_entry()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 907772300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6390253200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:38:18.010Z",
+        "line": 36,
+        "name": "Add multiple employees",
+        "description": "",
+        "id": "hrm-system;add-multiple-employees;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1441739100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Find PIM option in the menu and click it",
+            "match": {
+              "location": "stepDefinition.HRMActivity3.pim_option_in_the_menu_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283636000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click the Add button to add a new Employee",
+            "match": {
+              "location": "stepDefinition.HRMActivity3.click_on_add_employee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1612106100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "fill required fields click Save \"Mounika\", \"Yerragundla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mounika",
+                  "offset": 33
+                },
+                {
+                  "val": "Yerragundla",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.HRMActivity3.fill_required_fields(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1890483600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify Employee created \"Mounika\", \"Yerragundla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mounika\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Yerragundla\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.HRMActivity3.verify_employee_is_created(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 981306400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6165742600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:38:30.622Z",
+        "line": 37,
+        "name": "Add multiple employees",
+        "description": "",
+        "id": "hrm-system;add-multiple-employees;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423656100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Find PIM option in the menu and click it",
+            "match": {
+              "location": "stepDefinition.HRMActivity3.pim_option_in_the_menu_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323820500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click the Add button to add a new Employee",
+            "match": {
+              "location": "stepDefinition.HRMActivity3.click_on_add_employee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1391198900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "fill required fields click Save \"vihaan\", \"Avyukth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vihaan",
+                  "offset": 33
+                },
+                {
+                  "val": "Avyukth",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.HRMActivity3.fill_required_fields(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1773369000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify Employee created \"vihaan\", \"Avyukth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vihaan\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Avyukth\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HRMActivity3.verify_employee_is_created(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 893699900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6763570000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:38:42.604Z",
+        "line": 51,
+        "name": "Creating multiple vacancies",
+        "description": "",
+        "id": "hrm-system;creating-multiple-vacancies;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5762121000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Navigate to Recruitment page",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.navigate_to_the_recruitement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554578000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.navigate_to_vacancies_menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425022200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Add Job Vacancy",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.add_job_vacancy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632792800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Job Vacancy Form is filled and saved job title \"Automation Test Engineer\", vacancy name \"AutomationTesterjan291\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 48
+                },
+                {
+                  "val": "AutomationTesterjan291",
+                  "offset": 89
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 130
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1575198800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "verify vacancy is created job title \"Automation Test Engineer\", vacancy name \"AutomationTesterjan291\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 37
+                },
+                {
+                  "val": "AutomationTesterjan291",
+                  "offset": 78
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 119
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 894361900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6254451100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Vacancy portal",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.wpadminPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T08:38:59.223Z",
+        "line": 52,
+        "name": "Creating multiple vacancies",
+        "description": "",
+        "id": "hrm-system;creating-multiple-vacancies;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5616454800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Navigate to Recruitment page",
+            "match": {
+              "location": "stepDefinition.HRMActivity2.navigate_to_the_recruitement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561010200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.navigate_to_vacancies_menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415701500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Add Job Vacancy",
+            "match": {
+              "location": "stepDefinition.HRMActivity1.add_job_vacancy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658828100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Job Vacancy Form is filled and saved job title \"Automation Test Engineer\", vacancy name \"1AutomationTesterjan292\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 48
+                },
+                {
+                  "val": "1AutomationTesterjan292",
+                  "offset": 89
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 131
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1571810000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "verify vacancy is created job title \"Automation Test Engineer\", vacancy name \"1AutomationTesterjan292\", hiring manager \"IBM 01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Test Engineer",
+                  "offset": 37
+                },
+                {
+                  "val": "1AutomationTesterjan292",
+                  "offset": 78
+                },
+                {
+                  "val": "IBM 01",
+                  "offset": 120
+                }
+              ],
+              "location": "stepDefinition.HRMActivity1.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 937284800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.CloseBrowser.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      }
+    ],
+    "name": "HRM System",
+    "description": "",
+    "id": "hrm-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HRM.feature",
+    "tags": [
+      {
+        "name": "@HRM",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
