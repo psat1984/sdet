@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T05:13:43.392Z",
+        "line": 4,
+        "name": "Testing Login",
+        "description": "",
+        "id": "login-test;testing-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16170684300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to job site and navigate to job page",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity2.wpadminPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2482465600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search job details filled",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity2.searchJobDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1312091000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check job listing is present",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity2.checkJobListing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262767100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Apply for the job",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity2.applyforjob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1752022200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the JobSearch Browser",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity2.closeJobSearchBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardActivity2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/JobBoardActivity2.feature",
+    "tags": [
+      {
+        "name": "@JobBoardActivity2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

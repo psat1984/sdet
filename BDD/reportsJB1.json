@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-19T05:58:34.206Z",
+        "line": 4,
+        "name": "Testing Login",
+        "description": "",
+        "id": "login-test;testing-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13803107400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logging into wp-adminpage",
+            "match": {
+              "location": "stepDefinition.JobBoard.wpadminPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3816743000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create User",
+            "match": {
+              "location": "stepDefinition.JobBoard.enterCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1378977600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check user is created",
+            "match": {
+              "location": "stepDefinition.JobBoard.checkUserDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 892283800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Admin Browser",
+            "match": {
+              "location": "stepDefinition.JobBoard.closeAdminBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoard"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/JobBoard.feature",
+    "tags": [
+      {
+        "name": "@JobBoard",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

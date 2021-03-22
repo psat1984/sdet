@@ -1,0 +1,278 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T09:30:24.662Z",
+        "line": 15,
+        "name": "Using Examples table to post a job",
+        "description": "",
+        "id": "login-test;using-examples-table-to-post-a-job;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17142789200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to job site and navigate to job page testcase3 and testcase4",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.wp_admin_Page_3_4()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1639614400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Post Jobs Page",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.navigate_to_post_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1876395000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "give the credentials",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.sign_in_to_post_jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353188200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Email \"jan30test@test.com\", Job Title \"Tester\", Job Type \"Full Time\", Description \" Full Time Tester \", Company Name \" ABC \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jan30test@test.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Tester",
+                  "offset": 45
+                },
+                {
+                  "val": "Full Time",
+                  "offset": 64
+                },
+                {
+                  "val": " Full Time Tester ",
+                  "offset": 89
+                },
+                {
+                  "val": " ABC ",
+                  "offset": 124
+                }
+              ],
+              "location": "stepDefinition.JobBoardActivity3.enter_email_job_title_job_type_description_company_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1039635500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Preview and Post",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.click_on_save_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504718100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify in the Job Listing \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinition.JobBoardActivity3.verify_job_listing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 929844000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the JobSearch Browser1",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.closeJobSearchBrowser1()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardActivity4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T09:30:48.235Z",
+        "line": 16,
+        "name": "Using Examples table to post a job",
+        "description": "",
+        "id": "login-test;using-examples-table-to-post-a-job;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16228722000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to job site and navigate to job page testcase3 and testcase4",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.wp_admin_Page_3_4()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1782825700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Post Jobs Page",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.navigate_to_post_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993410400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "give the credentials",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.sign_in_to_post_jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468063500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Email \"feb01@test.com\", Job Title \"Tester\", Job Type \"Internship\", Description \" Internship Tester \", Company Name \" ABC \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "feb01@test.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Tester",
+                  "offset": 41
+                },
+                {
+                  "val": "Internship",
+                  "offset": 60
+                },
+                {
+                  "val": " Internship Tester ",
+                  "offset": 86
+                },
+                {
+                  "val": " ABC ",
+                  "offset": 122
+                }
+              ],
+              "location": "stepDefinition.JobBoardActivity3.enter_email_job_title_job_type_description_company_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1345535000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Preview and Post",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.click_on_save_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539625200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify in the Job Listing \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinition.JobBoardActivity3.verify_job_listing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 931420400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the JobSearch Browser1",
+            "match": {
+              "location": "stepDefinition.JobBoardActivity3.closeJobSearchBrowser1()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardActivity4"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/JobBoardActivity4.feature",
+    "tags": [
+      {
+        "name": "@JobBoardActivity4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
