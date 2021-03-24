@@ -1,5 +1,4 @@
-package Activity3_1;
-
+package com.sdet.JavaActivity3;
 import java.util.HashSet;
 
 public class Activity3_2 {

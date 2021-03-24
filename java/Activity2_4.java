@@ -1,4 +1,4 @@
-package Activity2_4;
+package com.sdet.JavaActivity2;
 
 class CustomException extends Exception {
     private String message = null;

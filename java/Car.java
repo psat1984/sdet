@@ -1,47 +1,35 @@
-package JavaActivity1;
+package com.sdet.JavaActivity1;
 
 public class Car {
-    //Class Member Variables
-    String color;
-    int make;
-    String transmission;
-    int tyres;
-    int doors;
 	
-    //Constructor
-    Car() {
-	tyres = 4;
-	doors = 4;
-    }
-
-    //Class Methods
-    public void displayCharacterstics(){
-	System.out.println("Color of the Car: " + color);
-	System.out.println("Make of the Car: " + make);
-	System.out.println("Transmission of the Car: " + transmission);
-	System.out.println("Number of doors on the car: " + doors);
-    	System.out.println("Number of tyres on the car: " + tyres);
-    }
-
-    public void accelerate() {
-	System.out.println("Car is moving forward.");
-    }
-	
-    public void brake() {
-	System.out.println("Car has stopped.");
-    }
-
-
-	    public static void main(String[] args) {
-	        Car toyota = new Car();
-	        toyota.make = 2014;
-	        toyota.color = "Black";
-	        toyota.transmission = "Manual";
-	    
-	        //Using Car class method
-	        toyota.displayCharacterstics();
-	        toyota.accelerate();
-	        toyota.brake();
+	    //Class Member Variables
+	    String color;
+	    String brand;
+	    String type;
+	    int make;
+	    String transmission;
+	    int tyres;
+	    int year;
+	    int doors;
+		
+	    //Class Methods
+	    public void characterstics(){
+		System.out.println("Color of the Car: " + color);
+		System.out.println("make of the Car: " + make);
+		System.out.println("transmission of the Car: " + transmission);
+		System.out.println("Purchase of the car: " + year);
+		System.out.println("Number of doors on the car: " + doors);
+	    	System.out.println("Number of tyres on the car: " + tyres);
 	    }
 
+	    public void accelerate() {
+		System.out.println("Car is moving forward.");
+	    }
+		
+	    public void brake() {
+		System.out.println("Car has stopped.");
+	    }
 	}
+	 
+
+
